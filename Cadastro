@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body style="background-color: black; color: white;">
+    <header>
+        <h1 style="text-align: center;">Entrevista Relâmpago</h1>
+    </header>
+    <hr>
+
+    <form> 
+        <label> Nome:</label>
+        <input type="text" style="margin-bottom: 25px; margin-right: 15px;"/>
+        <label> Sobrenome:</label>
+        <input type="text" style="margin-top: 25px; "/>
+        <br>
+        <label> Idade:</label>
+        <input type="number" style="margin-bottom: 25px; margin-right: 15px;"/>
+        <label> Gênero:</label>
+        <select>
+            <option value="" disabled-selected> Selecione </option>
+             <option value="Gênero">  Masculino</option>
+             <option value="Gênero">  Feminino</option>
+        </select>
+        
+        <br>
+    </form>
+    
+</body>
+</html>
